@@ -1,0 +1,1 @@
+../../../../BaiduMapAPI/Release-universal/BaiduMapAPI.framework/Headers/BMapKit.h
