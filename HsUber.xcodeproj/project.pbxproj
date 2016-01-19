@@ -13,15 +13,15 @@
 		4DB86AA21C4DC6C700F036E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB86AA01C4DC6C700F036E9 /* Main.storyboard */; };
 		4DB86AA41C4DC6C700F036E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB86AA31C4DC6C700F036E9 /* Assets.xcassets */; };
 		4DB86AA71C4DC6C700F036E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB86AA51C4DC6C700F036E9 /* LaunchScreen.storyboard */; };
-		4DB86ABD1C4DC85100F036E9 /* HsMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86AB31C4DC85100F036E9 /* HsMapManager.m */; };
-		4DB86AC01C4DC85100F036E9 /* HsMapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86AB81C4DC85100F036E9 /* HsMapViewController.mm */; };
-		4DB86AC11C4DC85100F036E9 /* HsMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB86AB91C4DC85100F036E9 /* HsMapViewController.xib */; };
-		4DB86AC21C4DC85100F036E9 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86ABB1C4DC85100F036E9 /* UIImage+Rotate.m */; };
 		4DB86AC71C4DCB4F00F036E9 /* HsTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86AC61C4DCB4F00F036E9 /* HsTopView.m */; };
 		4DB86ACA1C4DCEFB00F036E9 /* HsBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86AC91C4DCEFB00F036E9 /* HsBottomView.m */; };
 		4DB86ACE1C4DD29200F036E9 /* HsCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86ACD1C4DD29200F036E9 /* HsCenterView.m */; };
 		4DB86AD21C4DDA0700F036E9 /* HsMapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86AD11C4DDA0700F036E9 /* HsMapLabel.m */; };
-		4DB86AD61C4E0EC800F036E9 /* HsHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86AD51C4E0EC800F036E9 /* HsHistoryView.m */; };
+		4DB86B651C4E2AE300F036E9 /* HsHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86B5C1C4E2AE300F036E9 /* HsHistoryView.m */; };
+		4DB86B661C4E2AE300F036E9 /* HsMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86B5F1C4E2AE300F036E9 /* HsMapManager.m */; };
+		4DB86B671C4E2AE300F036E9 /* HsMapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86B611C4E2AE300F036E9 /* HsMapViewController.mm */; };
+		4DB86B681C4E2AE300F036E9 /* HsMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB86B621C4E2AE300F036E9 /* HsMapViewController.xib */; };
+		4DB86B691C4E2AE300F036E9 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB86B641C4E2AE300F036E9 /* UIImage+Rotate.m */; };
 		623236B10F81C4D7BA3BA93C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF72F99E76AF4A24258F05C4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,13 +37,6 @@
 		4DB86AA31C4DC6C700F036E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB86AA61C4DC6C700F036E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DB86AA81C4DC6C700F036E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DB86AB21C4DC85100F036E9 /* HsMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsMapManager.h; sourceTree = "<group>"; };
-		4DB86AB31C4DC85100F036E9 /* HsMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsMapManager.m; sourceTree = "<group>"; };
-		4DB86AB71C4DC85100F036E9 /* HsMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsMapViewController.h; sourceTree = "<group>"; };
-		4DB86AB81C4DC85100F036E9 /* HsMapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HsMapViewController.mm; sourceTree = "<group>"; };
-		4DB86AB91C4DC85100F036E9 /* HsMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HsMapViewController.xib; sourceTree = "<group>"; };
-		4DB86ABA1C4DC85100F036E9 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
-		4DB86ABB1C4DC85100F036E9 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
 		4DB86AC51C4DCB4F00F036E9 /* HsTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsTopView.h; sourceTree = "<group>"; };
 		4DB86AC61C4DCB4F00F036E9 /* HsTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsTopView.m; sourceTree = "<group>"; };
 		4DB86AC81C4DCEFB00F036E9 /* HsBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsBottomView.h; sourceTree = "<group>"; };
@@ -52,8 +45,15 @@
 		4DB86ACD1C4DD29200F036E9 /* HsCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsCenterView.m; sourceTree = "<group>"; };
 		4DB86AD01C4DDA0700F036E9 /* HsMapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsMapLabel.h; sourceTree = "<group>"; };
 		4DB86AD11C4DDA0700F036E9 /* HsMapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsMapLabel.m; sourceTree = "<group>"; };
-		4DB86AD41C4E0EC800F036E9 /* HsHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsHistoryView.h; sourceTree = "<group>"; };
-		4DB86AD51C4E0EC800F036E9 /* HsHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsHistoryView.m; sourceTree = "<group>"; };
+		4DB86B5B1C4E2AE300F036E9 /* HsHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsHistoryView.h; sourceTree = "<group>"; };
+		4DB86B5C1C4E2AE300F036E9 /* HsHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsHistoryView.m; sourceTree = "<group>"; };
+		4DB86B5E1C4E2AE300F036E9 /* HsMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsMapManager.h; sourceTree = "<group>"; };
+		4DB86B5F1C4E2AE300F036E9 /* HsMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsMapManager.m; sourceTree = "<group>"; };
+		4DB86B601C4E2AE300F036E9 /* HsMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsMapViewController.h; sourceTree = "<group>"; };
+		4DB86B611C4E2AE300F036E9 /* HsMapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HsMapViewController.mm; sourceTree = "<group>"; };
+		4DB86B621C4E2AE300F036E9 /* HsMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HsMapViewController.xib; sourceTree = "<group>"; };
+		4DB86B631C4E2AE300F036E9 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		4DB86B641C4E2AE300F036E9 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
 		6D4FD4CD8BDF8A4C4CD80B33 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DF72F99E76AF4A24258F05C4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,28 +116,14 @@
 		4DB86AAE1C4DC83300F036E9 /* HsUber */ = {
 			isa = PBXGroup;
 			children = (
-				4DB86AD31C4E0EB800F036E9 /* 历史记录 */,
+				4DB86B5A1C4E2AE300F036E9 /* history */,
+				4DB86B5D1C4E2AE300F036E9 /* map */,
 				4DB86ACF1C4DD9EA00F036E9 /* kit */,
 				4DB86ACB1C4DD28300F036E9 /* centerView */,
 				4DB86AC31C4DCB3A00F036E9 /* bottomView */,
 				4DB86AC41C4DCB3A00F036E9 /* topView */,
-				4DB86AAF1C4DC85100F036E9 /* 地图 */,
 			);
 			path = HsUber;
-			sourceTree = "<group>";
-		};
-		4DB86AAF1C4DC85100F036E9 /* 地图 */ = {
-			isa = PBXGroup;
-			children = (
-				4DB86AB21C4DC85100F036E9 /* HsMapManager.h */,
-				4DB86AB31C4DC85100F036E9 /* HsMapManager.m */,
-				4DB86AB71C4DC85100F036E9 /* HsMapViewController.h */,
-				4DB86AB81C4DC85100F036E9 /* HsMapViewController.mm */,
-				4DB86AB91C4DC85100F036E9 /* HsMapViewController.xib */,
-				4DB86ABA1C4DC85100F036E9 /* UIImage+Rotate.h */,
-				4DB86ABB1C4DC85100F036E9 /* UIImage+Rotate.m */,
-			);
-			path = "地图";
 			sourceTree = "<group>";
 		};
 		4DB86AC31C4DCB3A00F036E9 /* bottomView */ = {
@@ -176,13 +162,27 @@
 			path = kit;
 			sourceTree = "<group>";
 		};
-		4DB86AD31C4E0EB800F036E9 /* 历史记录 */ = {
+		4DB86B5A1C4E2AE300F036E9 /* history */ = {
 			isa = PBXGroup;
 			children = (
-				4DB86AD41C4E0EC800F036E9 /* HsHistoryView.h */,
-				4DB86AD51C4E0EC800F036E9 /* HsHistoryView.m */,
+				4DB86B5B1C4E2AE300F036E9 /* HsHistoryView.h */,
+				4DB86B5C1C4E2AE300F036E9 /* HsHistoryView.m */,
 			);
-			path = "历史记录";
+			path = history;
+			sourceTree = "<group>";
+		};
+		4DB86B5D1C4E2AE300F036E9 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				4DB86B5E1C4E2AE300F036E9 /* HsMapManager.h */,
+				4DB86B5F1C4E2AE300F036E9 /* HsMapManager.m */,
+				4DB86B601C4E2AE300F036E9 /* HsMapViewController.h */,
+				4DB86B611C4E2AE300F036E9 /* HsMapViewController.mm */,
+				4DB86B621C4E2AE300F036E9 /* HsMapViewController.xib */,
+				4DB86B631C4E2AE300F036E9 /* UIImage+Rotate.h */,
+				4DB86B641C4E2AE300F036E9 /* UIImage+Rotate.m */,
+			);
+			path = map;
 			sourceTree = "<group>";
 		};
 		BC019D6B8E65D9F9AB74ADC5 /* Pods */ = {
@@ -262,10 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB86B681C4E2AE300F036E9 /* HsMapViewController.xib in Resources */,
 				4DB86AA71C4DC6C700F036E9 /* LaunchScreen.storyboard in Resources */,
 				4DB86AA41C4DC6C700F036E9 /* Assets.xcassets in Resources */,
 				4DB86AA21C4DC6C700F036E9 /* Main.storyboard in Resources */,
-				4DB86AC11C4DC85100F036E9 /* HsMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,15 +325,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB86AD21C4DDA0700F036E9 /* HsMapLabel.m in Sources */,
+				4DB86B661C4E2AE300F036E9 /* HsMapManager.m in Sources */,
 				4DB86A9F1C4DC6C700F036E9 /* ViewController.m in Sources */,
-				4DB86AC01C4DC85100F036E9 /* HsMapViewController.mm in Sources */,
-				4DB86ABD1C4DC85100F036E9 /* HsMapManager.m in Sources */,
+				4DB86B651C4E2AE300F036E9 /* HsHistoryView.m in Sources */,
 				4DB86ACE1C4DD29200F036E9 /* HsCenterView.m in Sources */,
 				4DB86A9C1C4DC6C700F036E9 /* AppDelegate.m in Sources */,
+				4DB86B671C4E2AE300F036E9 /* HsMapViewController.mm in Sources */,
 				4DB86ACA1C4DCEFB00F036E9 /* HsBottomView.m in Sources */,
-				4DB86AC21C4DC85100F036E9 /* UIImage+Rotate.m in Sources */,
 				4DB86AC71C4DCB4F00F036E9 /* HsTopView.m in Sources */,
-				4DB86AD61C4E0EC800F036E9 /* HsHistoryView.m in Sources */,
+				4DB86B691C4E2AE300F036E9 /* UIImage+Rotate.m in Sources */,
 				4DB86A991C4DC6C700F036E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
