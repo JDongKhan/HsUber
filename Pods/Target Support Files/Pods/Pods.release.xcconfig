@@ -1,6 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BaiduMapAPI/Release-universal"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BaiduMapAPI" "${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell" "${PODS_ROOT}/Headers/Public/tableViewSimplify"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BaiduMapAPI" -isystem "${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell" -isystem "${PODS_ROOT}/Headers/Public/tableViewSimplify"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"UITableView+FDTemplateLayoutCell" -l"stdc++" -l"stdc++.6" -l"tableViewSimplify" -framework "BaiduMapAPI" -framework "CoreGraphics" -framework "CoreLocation" -framework "Foundation" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
-PODS_ROOT = ${SRCROOT}/Pods

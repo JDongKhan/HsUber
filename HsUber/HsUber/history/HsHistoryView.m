@@ -7,9 +7,9 @@
 //
 
 #import "HsHistoryView.h"
-#import <tableViewSimplify/UITableView+simplify.h>
+#import <SMTableView/UITableView+simplify.h>
 
-@interface HsHistoryView ()<HsBaseTableViewDataSource,HsBaseTableViewDelegate>
+@interface HsHistoryView ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic,strong) UITableView *tableView;
 
@@ -26,9 +26,9 @@
 
 - (void)setup {
     self.tableView = [[UITableView alloc] initWithFrame:self.bounds];
-    self.tableView.baseDataSource = self;
-    self.tableView.baseDelegate = self;
     self.tableView.enableSimplify = YES;
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     self.tableView.backgroundColor = [UIColor clearColor];
     [self addSubview:self.tableView];

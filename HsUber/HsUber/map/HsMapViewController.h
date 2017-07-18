@@ -26,8 +26,8 @@ UIKIT_STATIC_INLINE HsMapLocationPoint HsMapLocationPointMake(CGFloat latitude, 
 
 @property (weak, nonatomic) IBOutlet BMKMapView *mapView;
 
-@property (nonatomic,strong) NSString *endAddress;
-@property (nonatomic,strong) NSString *city;
+@property (nonatomic,copy) NSString *endAddress;
+@property (nonatomic,copy) NSString *city;
 
 //地图缩放级别
 @property (nonatomic,assign) CGFloat zoomLevel;
